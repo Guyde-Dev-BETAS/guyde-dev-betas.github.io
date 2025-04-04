@@ -1,3 +1,3 @@
-function Redirect(user, name) {
-    window.open(`https://github.com/${user}/${name}`)
+function Redirect(creator, name) {
+    window.open(`https://github.com/${creator}/${name}`)
 }
