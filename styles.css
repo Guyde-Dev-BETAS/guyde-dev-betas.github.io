@@ -1,0 +1,50 @@
+.scrollDiv {
+    width: 250px;
+    height: 80%;
+    background-color: black;
+    overflow-y: scroll;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    border-radius: 12px;
+    margin: auto;
+}
+div {
+    width: 250px;
+    height: 80%;
+    background-color: black;
+    overflow-y: scroll;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    border-radius: 12px;
+    margin: auto;
+}
+html {
+    background: radial-gradient(circle at center, navy 0, black 100%);
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+button {
+    width: 125px;
+    height: 50px;
+    border-radius: 12px;
+    box-shadow: 0 9px #333333;
+    background-color: #555555;
+    border: none;
+    color: white;
+    font-family: cursive;
+    font-size: 100%;
+    transition-duration: 0.15s;
+}
+button:active {
+    box-shadow: 0 6px #333333;
+    transform: translateY(3px);
+    transition-duration: 0.15s;
+}
+input {
+    background-color: #555555;
+    border-color: white;
+    color: white;
+}
